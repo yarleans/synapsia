@@ -1,0 +1,147 @@
+/* Variables de color */
+:root {
+    --mint-green: #26A69A;
+    --dark-gray: #37474F;
+    --light-gray: #ECEFF1;
+    --white: #FFFFFF;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: var(--dark-gray);
+    color: var(--white);
+    padding: 1em 0;
+    text-align: center;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.header .logo {
+    /* Ajusta el tamaño del logo aquí */
+    width: 150px; /* Puedes modificar este valor según lo desees */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+
+.nav a {
+    color: var(--white);
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: var(--mint-green);
+}
+
+/* Main Banner */
+.banner {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--mint-green);
+    color: var(--white);
+}
+
+.banner h2 {
+    font-size: 2.5em;
+}
+
+.cta-button {
+    background-color: var(--dark-gray);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #2D3B45;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.service {
+    margin: 20px 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: var(--mint-green);
+    color: var(--white);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+blockquote {
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+/* Resources Section */
+.resources {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea, .contact button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid var(--dark-gray);
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: var(--mint-green);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #219885;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--dark-gray);
+    color: var(--white);
+    text-align: center;
+    padding: 10px 0;
+}
