@@ -1,0 +1,2 @@
+# synapsia
+proyecto personal
